@@ -36,7 +36,7 @@ header img {
 }
 header nav ul {
   display: flex;
-  width: 100%;
+  width: 99%;
   justify-content: space-around;
   gap: 10px;
   margin-top: 2em;
@@ -45,6 +45,11 @@ header nav ul {
   border: solid var(--ds-bordercolor);
   border-radius: 10px;
 }
+header nav ul li a {
+  color: var(--ds-primarycolor);
+  font-weight: bold;
+}
+
 .desplegable {
   display: none;
 }
