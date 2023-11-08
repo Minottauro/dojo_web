@@ -93,7 +93,7 @@ header nav ul li a {
 .button_presentacion:hover {
   scale: 1.1;
   transition: 1s;
-  border: solid rgb(14, 13, 13);
+  border: solid var(--ds-randomcolor);
   background-color: var(--ds-tertiarycolor);
   color: var(--ds-secondarycolor);
 }
@@ -205,7 +205,7 @@ header nav ul li a {
 }
 
 #prueba {
-  border-top: solid black;
+  border-top: solid var(--ds-randomcolor);
   display: flex;
   align-items: center;
   justify-content: center;
